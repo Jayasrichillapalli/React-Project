@@ -6,11 +6,11 @@ const Counter = () => {
 
   useEffect(() => {
     if (timer) {
-      const Intervaltime = setInterval(() => {
+      const intervalId = setInterval(() => {
         setCount(prevCount => prevCount + 1);
       }, 1000);
 
-      return clearInterval(Intervaltime);
+      return () => clearInterval(intervalId);
     }
   }, [timer]);
 
@@ -18,13 +18,13 @@ const Counter = () => {
     if (!timer) {
       setTimer(true);
     }
-  }
+  };
 
   const handleStop = () => {
     if (timer) {
       setTimer(null);
     }
-  }
+  };
 
   return (
     <div>
