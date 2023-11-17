@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,3 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # React-Test
 >>>>>>> origin/main
+=======
+# React
+>>>>>>> 25571dd624d14f614c46e2e6c2543fa9bbcd6470
